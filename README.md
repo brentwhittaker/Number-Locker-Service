@@ -6,7 +6,7 @@ Message broker for async processing
 Command pattern for Commands + Events
 Loosley coupled microservices
 Generated Api ui with swaggerui. 
-Go to http://localhost:<port number>/swagger/index.html
+Go to https://localhost:5001/swagger/index.html
 
 Tech:
 Asp.netcore
