@@ -8,8 +8,6 @@ namespace OrderIn.Api.Handlers
 {
     public class ItemCreatedHandler : IEventHandler<ItemCreated1>
     {
-        public ItemCreatedHandler Instance { get; }
-
         private readonly IItemRepository _repository;
         private readonly ILogger<ItemCreatedHandler> _logger;
 
@@ -17,7 +15,6 @@ namespace OrderIn.Api.Handlers
         {
             _repository = repository;
             _logger = logger;
-            Instance = this;
         }
         public async Task HandleAsync(ItemCreated1 @event)
         {

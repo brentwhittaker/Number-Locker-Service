@@ -40,7 +40,7 @@ namespace OrderIn.Services.Worker
                         BackupStrategy = MongoBackupStrategy.Collections
                     }
                 };
-                config.UseColouredConsoleLogProvider(Hangfire.Logging.LogLevel.Trace);
+                config.UseColouredConsoleLogProvider(Hangfire.Logging.LogLevel.Info);
                 config.UseMongoStorage(Configuration.GetSection("mongo:connectionString").Value, Configuration.GetSection("mongo:database").Value, migrationOptions);
             });
         }
