@@ -2,39 +2,38 @@
 
 ## Features:
 
-Api gateway with Service Bus
+- Api gateway with Service Bus
 
-Message broker for async processing
+- Message broker for async processing
 
-Command pattern for Commands + Events
+- Command pattern for Commands + Events
 
-Loosley coupled microservices
+- Loosley coupled microservices
 
-Generated Api ui with swaggerui. 
-
-Go to https://localhost:5001/swagger/index.html
+- Generated Api ui with swaggerui. Go to https://localhost:5001/swagger/index.html
 
 ## Tech:
 
-Asp.netcore
+- Asp.netcore
 
-RabbitMq
+- RabbitMq
 
-MongoDb
+- MongoDb
 
-Hangfire.Mongo
+- Hangfire.Mongo
 
 ## Tools:
 
-Git Bash for Windows
+- Git Bash for Windows
 
-vscode
+- vscode
 
-vs community edition
+- vs community edition
 
-Robomongo
+- Robomongo
 
 ## Resources:
+
 Udemy.com .NETCORE Microservices
 
 ## Notes:
