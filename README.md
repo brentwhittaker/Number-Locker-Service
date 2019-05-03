@@ -38,6 +38,6 @@ Udemy.com .NETCORE Microservices
 
 ### Notes:
 
-Only implemented direct messaging, should be refactored to use message exchange for maintainability.
+Only implemented direct messaging, should be refactored to use message exchange (with fanout) for maintainability.
 
 If you encounter the 'connection is not private' browser error message, please proceed to localhost(unsafe) to view swagger page.
