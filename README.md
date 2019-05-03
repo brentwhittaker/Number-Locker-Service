@@ -1,6 +1,6 @@
 # Number-Locker-Service
 
-Features:
+## Features:
 
 Api gateway with Service Bus
 
@@ -14,7 +14,7 @@ Generated Api ui with swaggerui.
 
 Go to https://localhost:5001/swagger/index.html
 
-Tech:
+## Tech:
 
 Asp.netcore
 
@@ -24,7 +24,7 @@ MongoDb
 
 Hangfire.Mongo
 
-Tools:
+## Tools:
 
 Git Bash for Windows
 
@@ -34,10 +34,10 @@ vs community edition
 
 Robomongo
 
-Resources:
+## Resources:
 Udemy.com .NETCORE Microservices
 
-Notes:
+## Notes:
 
 Only implemented direct messaging, should be refactored to use message exchange for maintainability.
 
