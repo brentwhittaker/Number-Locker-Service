@@ -1,7 +1,7 @@
-﻿using OrderIn.Services.Worker.Domain.Models;
+﻿using Micro.Services.Worker.Domain.Models;
 using System.Threading.Tasks;
 
-namespace OrderIn.Services.Worker.Domain.Services
+namespace Micro.Services.Worker.Domain.Services
 {
     public interface IWorkerService
     {

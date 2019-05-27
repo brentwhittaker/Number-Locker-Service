@@ -1,10 +1,10 @@
 ﻿using Microsoft.Extensions.Logging;
-using OrderIn.Api.Models;
-using OrderIn.Api.Repositories;
-using OrderIn.Common.Events;
+using Micro.Api.Models;
+using Micro.Api.Repositories;
+using Micro.Common.Events;
 using System.Threading.Tasks;
 
-namespace OrderIn.Api.Handlers
+namespace Micro.Api.Handlers
 {
     public class ItemCreatedHandler : IEventHandler<ItemCreated1>
     {

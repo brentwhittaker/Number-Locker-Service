@@ -1,4 +1,4 @@
-﻿namespace OrderIn.Common.Events
+﻿namespace Micro.Common.Events
 {
     public interface IRejectedEvent : IEvent
     {

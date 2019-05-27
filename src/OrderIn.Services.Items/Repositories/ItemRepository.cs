@@ -1,11 +1,11 @@
 ﻿using MongoDB.Driver;
 using MongoDB.Driver.Linq;
-using OrderIn.Services.Items.Domain.Models;
-using OrderIn.Services.Items.Domain.Repositories;
+using Micro.Services.Items.Domain.Models;
+using Micro.Services.Items.Domain.Repositories;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace OrderIn.Services.Items.Repositories
+namespace Micro.Services.Items.Repositories
 {
     public class ItemRepository : IItemRepository
     {

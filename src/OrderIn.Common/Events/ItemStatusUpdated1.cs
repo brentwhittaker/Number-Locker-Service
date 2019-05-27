@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace OrderIn.Common.Events
+namespace Micro.Common.Events
 {
     public class ItemStatusUpdated1 : IEvent
     {

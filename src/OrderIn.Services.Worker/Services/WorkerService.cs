@@ -1,13 +1,13 @@
 ﻿using Hangfire;
 using Microsoft.Extensions.Logging;
-using OrderIn.Common.Events;
-using OrderIn.Services.Worker.Domain.Models;
-using OrderIn.Services.Worker.Domain.Services;
+using Micro.Common.Events;
+using Micro.Services.Worker.Domain.Models;
+using Micro.Services.Worker.Domain.Services;
 using RawRabbit;
 using System;
 using System.Threading.Tasks;
 
-namespace OrderIn.Services.Worker.Services
+namespace Micro.Services.Worker.Services
 {
     public class WorkerService : IWorkerService
     {

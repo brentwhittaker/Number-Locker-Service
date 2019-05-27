@@ -1,4 +1,4 @@
-﻿namespace OrderIn.Common.Commands
+﻿namespace Micro.Common.Commands
 {
     //marker interface
     public interface ICommand

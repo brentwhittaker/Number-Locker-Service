@@ -1,4 +1,4 @@
-﻿namespace OrderIn.Common.Mongo
+﻿namespace Micro.Common.Mongo
 {
     public class MongoOptions
     {

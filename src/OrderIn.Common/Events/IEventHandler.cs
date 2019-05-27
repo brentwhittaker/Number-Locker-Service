@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace OrderIn.Common.Events
+namespace Micro.Common.Events
 {
     public interface IEventHandler<in T> where T : IEvent
     {

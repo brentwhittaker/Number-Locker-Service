@@ -1,7 +1,7 @@
-﻿using OrderIn.Api.Models;
+﻿using Micro.Api.Models;
 using System.Threading.Tasks;
 
-namespace OrderIn.Api.Repositories
+namespace Micro.Api.Repositories
 {
     public interface IItemRepository
     {

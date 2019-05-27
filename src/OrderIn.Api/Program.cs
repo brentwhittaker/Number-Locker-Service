@@ -1,8 +1,8 @@
-﻿using OrderIn.Common.Events;
-using OrderIn.Common.Services;
+﻿using Micro.Common.Events;
+using Micro.Common.Services;
 using System.Threading.Tasks;
 
-namespace OrderIn.Api
+namespace Micro.Api
 {
     public class Program
     {

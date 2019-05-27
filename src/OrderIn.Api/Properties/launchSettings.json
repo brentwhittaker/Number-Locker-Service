@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "OrderIn.Api": {
+    "Micro.Api": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "api/values",

@@ -1,4 +1,4 @@
-namespace OrderIn.Common.Services
+namespace Micro.Common.Services
 {
     public abstract class BuilderBase
     {

@@ -3,14 +3,14 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using OrderIn.Api.Handlers;
-using OrderIn.Api.Repositories;
-using OrderIn.Common.Events;
-using OrderIn.Common.Mongo;
-using OrderIn.Common.RabbitMq;
+using Micro.Api.Handlers;
+using Micro.Api.Repositories;
+using Micro.Common.Events;
+using Micro.Common.Mongo;
+using Micro.Common.RabbitMq;
 using Swashbuckle.AspNetCore.Swagger;
 
-namespace OrderIn.Api
+namespace Micro.Api
 {
     public class Startup
     {

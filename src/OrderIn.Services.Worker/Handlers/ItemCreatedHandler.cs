@@ -1,13 +1,13 @@
 ﻿using Microsoft.Extensions.Logging;
-using OrderIn.Common.Commands;
-using OrderIn.Common.Events;
-using OrderIn.Common.Exceptions;
-using OrderIn.Services.Worker.Domain.Services;
+using Micro.Common.Commands;
+using Micro.Common.Events;
+using Micro.Common.Exceptions;
+using Micro.Services.Worker.Domain.Services;
 using RawRabbit;
 using System;
 using System.Threading.Tasks;
 
-namespace OrderIn.Services.Worker.Handlers
+namespace Micro.Services.Worker.Handlers
 {
     public class ItemCreatedHandler : IEventHandler<ItemCreated2>
     {

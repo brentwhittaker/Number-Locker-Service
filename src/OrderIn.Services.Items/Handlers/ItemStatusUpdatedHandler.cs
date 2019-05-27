@@ -1,13 +1,13 @@
 ﻿using Microsoft.Extensions.Logging;
-using OrderIn.Common.Events;
-using OrderIn.Services.Items.Domain.Models;
-using OrderIn.Services.Items.Domain.Repositories;
+using Micro.Common.Events;
+using Micro.Services.Items.Domain.Models;
+using Micro.Services.Items.Domain.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace OrderIn.Services.Items.Handlers
+namespace Micro.Services.Items.Handlers
 {
     public class ItemStatusUpdatedHandler : IEventHandler<ItemStatusUpdated2>
     {

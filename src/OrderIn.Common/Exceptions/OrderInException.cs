@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace OrderIn.Common.Exceptions
+namespace Micro.Common.Exceptions
 {
     public class OrderInException : Exception
     {

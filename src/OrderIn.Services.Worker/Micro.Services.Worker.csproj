@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
+    <AssemblyName>Micro.Services.Worker</AssemblyName>
+    <RootNamespace>Micro.Services.Worker</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
@@ -18,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\orderin.common\OrderIn.Common.csproj" />
+    <ProjectReference Include="..\orderin.common\Micro.Common.csproj" />
   </ItemGroup>
 
   <ItemGroup>

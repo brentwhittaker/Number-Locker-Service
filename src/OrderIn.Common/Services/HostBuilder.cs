@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Hosting;
 using RawRabbit;
 
-namespace OrderIn.Common.Services
+namespace Micro.Common.Services
 {
     public class HostBuilder : BuilderBase
     {

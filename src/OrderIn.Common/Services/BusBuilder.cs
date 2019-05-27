@@ -1,14 +1,14 @@
 using Microsoft.AspNetCore.Hosting;
-using OrderIn.Common.Commands;
-using OrderIn.Common.Events;
-using OrderIn.Common.RabbitMq;
+using Micro.Common.Commands;
+using Micro.Common.Events;
+using Micro.Common.RabbitMq;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 using RawRabbit;
 using System;
 using System.Text;
 
-namespace OrderIn.Common.Services
+namespace Micro.Common.Services
 {
     public class BusBuilder : BuilderBase
     {

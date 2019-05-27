@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace OrderIn.Common.Events
+namespace Micro.Common.Events
 {
     public class ItemCountUpdated : IEvent
     {

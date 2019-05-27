@@ -5,14 +5,14 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using OrderIn.Common.Events;
-using OrderIn.Common.Mongo;
-using OrderIn.Common.RabbitMq;
-using OrderIn.Services.Worker.Domain.Services;
-using OrderIn.Services.Worker.Handlers;
-using OrderIn.Services.Worker.Services;
+using Micro.Common.Events;
+using Micro.Common.Mongo;
+using Micro.Common.RabbitMq;
+using Micro.Services.Worker.Domain.Services;
+using Micro.Services.Worker.Handlers;
+using Micro.Services.Worker.Services;
 
-namespace OrderIn.Services.Worker
+namespace Micro.Services.Worker
 {
     public class Startup
     {

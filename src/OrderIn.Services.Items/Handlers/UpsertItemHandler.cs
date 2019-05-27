@@ -1,14 +1,14 @@
 ﻿using Microsoft.Extensions.Logging;
-using OrderIn.Common.Commands;
-using OrderIn.Common.Events;
-using OrderIn.Common.Exceptions;
-using OrderIn.Services.Items.Domain.Services;
+using Micro.Common.Commands;
+using Micro.Common.Events;
+using Micro.Common.Exceptions;
+using Micro.Services.Items.Domain.Services;
 using RawRabbit;
 using RawRabbit.Configuration.Exchange;
 using System;
 using System.Threading.Tasks;
 
-namespace OrderIn.Services.Items.Handlers
+namespace Micro.Services.Items.Handlers
 {
     public class UpsertItemHandler : ICommandHandler<xItem>
     {

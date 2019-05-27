@@ -4,7 +4,7 @@ using Microsoft.Extensions.Configuration;
 using System;
 using System.Threading.Tasks;
 
-namespace OrderIn.Common.Services
+namespace Micro.Common.Services
 {
     public class ServiceHost : IServiceHost
     {

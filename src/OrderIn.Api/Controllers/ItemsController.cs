@@ -1,11 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using OrderIn.Api.Models;
-using OrderIn.Api.Repositories;
+using Micro.Api.Models;
+using Micro.Api.Repositories;
 using RawRabbit;
 using System;
 using System.Threading.Tasks;
 
-namespace OrderIn.Api.Controllers
+namespace Micro.Api.Controllers
 {
     [Route("")]
     public class ItemsController : Controller
@@ -22,7 +22,7 @@ namespace OrderIn.Api.Controllers
         [HttpPost("save")]
         public async Task<IActionResult> Post([FromBody] RequestItem model)
         {
-            var command = new OrderIn.Common.Commands.xItem();
+            var command = new Micro.Common.Commands.xItem();
             command.Id = Guid.NewGuid();
             command.Item = model.Item;
             await _busClient.PublishAsync(command);

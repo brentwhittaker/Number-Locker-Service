@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "OrderIn.Services.Items": {
+    "Micro.Services.Items": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "api/values",

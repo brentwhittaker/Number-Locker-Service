@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using OrderIn.Common.Commands;
-using OrderIn.Common.Events;
+using Micro.Common.Commands;
+using Micro.Common.Events;
 using RawRabbit;
 using RawRabbit.Configuration;
 using RawRabbit.Configuration.Exchange;
@@ -11,7 +11,7 @@ using RawRabbit.Subscription;
 using System.Reflection;
 using System.Threading.Tasks;
 
-namespace OrderIn.Common.RabbitMq
+namespace Micro.Common.RabbitMq
 {
     public static class Extensions
     {

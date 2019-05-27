@@ -1,7 +1,7 @@
-﻿using OrderIn.Common.Exceptions;
+﻿using Micro.Common.Exceptions;
 using System;
 
-namespace OrderIn.Services.Worker.Domain.Models
+namespace Micro.Services.Worker.Domain.Models
 {
     public class xItem
     {

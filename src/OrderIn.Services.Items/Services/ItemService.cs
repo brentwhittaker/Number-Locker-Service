@@ -1,10 +1,10 @@
-﻿using OrderIn.Services.Items.Domain.Models;
-using OrderIn.Services.Items.Domain.Repositories;
-using OrderIn.Services.Items.Domain.Services;
+﻿using Micro.Services.Items.Domain.Models;
+using Micro.Services.Items.Domain.Repositories;
+using Micro.Services.Items.Domain.Services;
 using System;
 using System.Threading.Tasks;
 
-namespace OrderIn.Services.Items.Services
+namespace Micro.Services.Items.Services
 {
     public class ItemService : IItemService
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace OrderIn.Common.Commands
+namespace Micro.Common.Commands
 {
     public class xItem : ICommand
     {

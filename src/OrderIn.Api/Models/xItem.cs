@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace OrderIn.Api.Models
+namespace Micro.Api.Models
 {
     public class xItem
     {

@@ -1,10 +1,10 @@
 ﻿using MongoDB.Driver;
 using MongoDB.Driver.Linq;
-using OrderIn.Api.Models;
+using Micro.Api.Models;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace OrderIn.Api.Repositories
+namespace Micro.Api.Repositories
 {
     public class ItemRepository : IItemRepository
     {

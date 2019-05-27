@@ -1,8 +1,8 @@
-﻿using OrderIn.Services.Items.Domain.Models;
+﻿using Micro.Services.Items.Domain.Models;
 using System;
 using System.Threading.Tasks;
 
-namespace OrderIn.Services.Items.Domain.Services
+namespace Micro.Services.Items.Domain.Services
 {
     public interface IItemService
     {

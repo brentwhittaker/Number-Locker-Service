@@ -3,17 +3,17 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using OrderIn.Common.Commands;
-using OrderIn.Common.Events;
-using OrderIn.Common.Mongo;
-using OrderIn.Common.RabbitMq;
-using OrderIn.Services.Items.Domain.Repositories;
-using OrderIn.Services.Items.Domain.Services;
-using OrderIn.Services.Items.Handlers;
-using OrderIn.Services.Items.Repositories;
-using OrderIn.Services.Items.Services;
+using Micro.Common.Commands;
+using Micro.Common.Events;
+using Micro.Common.Mongo;
+using Micro.Common.RabbitMq;
+using Micro.Services.Items.Domain.Repositories;
+using Micro.Services.Items.Domain.Services;
+using Micro.Services.Items.Handlers;
+using Micro.Services.Items.Repositories;
+using Micro.Services.Items.Services;
 
-namespace OrderIn.Services.Items
+namespace Micro.Services.Items
 {
     public class Startup
     {

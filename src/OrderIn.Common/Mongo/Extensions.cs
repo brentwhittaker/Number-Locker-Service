@@ -3,7 +3,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using MongoDB.Driver;
 
-namespace OrderIn.Common.Mongo
+namespace Micro.Common.Mongo
 {
     public static class Extensions
     {

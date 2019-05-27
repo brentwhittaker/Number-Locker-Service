@@ -1,7 +1,7 @@
-﻿using OrderIn.Services.Items.Domain.Models;
+﻿using Micro.Services.Items.Domain.Models;
 using System.Threading.Tasks;
 
-namespace OrderIn.Services.Items.Domain.Repositories
+namespace Micro.Services.Items.Domain.Repositories
 {
     public interface IItemRepository
     {
