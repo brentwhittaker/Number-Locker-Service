@@ -32,10 +32,6 @@
 
 - Robomongo
 
-### Resources:
-
-Udemy.com .NETCORE Microservices
-
 ### Notes:
 
 Only implemented direct messaging, should be refactored to use message exchange (with fanout) for maintainability.
