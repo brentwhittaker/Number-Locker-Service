@@ -5,13 +5,13 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1A85E338-49F9-4F10-9975-7AD014E5056A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Micro.Api", "src\orderin.api\Micro.Api.csproj", "{D8247A15-FC1C-4375-8077-4B5963810FAB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Micro.Api", "src\Micro.Api\Micro.Api.csproj", "{D8247A15-FC1C-4375-8077-4B5963810FAB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Micro.Services.Worker", "src\orderin.services.worker\Micro.Services.Worker.csproj", "{0E7D620B-ED07-43B6-8564-4CAFEBDB2649}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Micro.Services.Worker", "src\Micro.Services.Worker\Micro.Services.Worker.csproj", "{0E7D620B-ED07-43B6-8564-4CAFEBDB2649}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Micro.Common", "src\orderin.common\Micro.Common.csproj", "{A4C21F1C-69BF-406D-925A-A0EF91BA911E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Micro.Common", "src\Micro.Common\Micro.Common.csproj", "{A4C21F1C-69BF-406D-925A-A0EF91BA911E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Micro.Services.Items", "src\orderin.services.items\Micro.Services.Items.csproj", "{8F85E8F0-75D0-43D1-A763-74CD7EF1453C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Micro.Services.Items", "src\Micro.Services.Items\Micro.Services.Items.csproj", "{8F85E8F0-75D0-43D1-A763-74CD7EF1453C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
